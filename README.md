@@ -1,1 +1,5 @@
-# netflix_analysis
+# Netflix analysis
+
+Extract, Transform & Load 
+
+Research design 
