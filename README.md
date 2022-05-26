@@ -1,20 +1,33 @@
-# Netflix analysis
+# Netflix analysis 📺 :tv:
 
 This project was completed by Chisimnulia Okoye, Sofia Kauser, and Shannon Watts.
 
 ## Research proposal
 
+Our project focuses on two datasets sourced from Kaggle. We chose these datasets as we love to watch Netflix ... but we had run out of tv shows and films to watch. We wanted to see how many of IMDBs top 1000 films and tv series were on Netflix. Surely the most rated and top grossing films are the most interesting? So we also wanted to know which films/tv shows and how many were not on Netflix. 
 
+The Datasets:
 
-Our project focuses on two datasets sourced from Kaggle. We chose these datasets as we love to watch Netflix ... but we havd run out of tv shows and films to watch. We wanted to see how many of IMDBs
+We chose these datasets because we thought it would best illustrate what we wanted to find. 
 
-We were interested to find out what 
+IMDB Movies Dataset
+https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows
 
-These datasets also had similar 
+![image](https://user-images.githubusercontent.com/100214297/170559020-47c173bb-9ea8-47cc-aac5-6f67c9ee8735.png)
 
-![image](https://user-images.githubusercontent.com/100214297/170553168-c4901879-a6f8-4a84-84ea-a93645bbb5dc.png)
+Netflix Movies and TV Shows
+https://www.kaggle.com/datasets/shivamb/netflix-shows 
 
-![image](https://user-images.githubusercontent.com/100214297/170553210-47eb328a-52f9-4463-b1a0-28689a2a8a1f.png)
+![image](https://user-images.githubusercontent.com/100214297/170559212-75190924-06a5-4063-91dc-1d7164826f97.png)
+
+Research Questions:
+
+How many of the world’s top grossing films are currently on Netflix?
+
+What are the top grossing films which are on Netflix and what is there corresponding IMDB score?
+
+What genres are the highest grossing films? And what genres are Netflix currently showing? Possible suggestions for films to be added next month?
+
 
 ## Extract 
 (process & screenshots)
