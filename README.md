@@ -38,7 +38,7 @@ What genres are most common in IMDB’s top 1000? And what genres are Netflix cu
 
 ## Extract 
 
-We decided to extract the two CSV file sand examine both seperatly to see what we were working with.
+We decided to extract the two CSV files and examine both separately to see what we were working with.
 
 ![image](https://user-images.githubusercontent.com/100214297/170561035-3cd19ed7-49f6-4323-99c4-1270c8c16e99.png)
 
