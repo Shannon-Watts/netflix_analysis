@@ -1,4 +1,4 @@
-# Netflix analysis 📺 :tv:
+# :tv: Netflix analysis 📺 
 
 This project was completed by Chisimnulia Okoye, Sofia Kauser, and Shannon Watts.
 
