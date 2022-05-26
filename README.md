@@ -28,6 +28,14 @@ What is the corresponding IMDB score for these films, has Netflix missed any maj
 
 What genres are most common in IMDB’s top 1000? And what genres are Netflix currently showing? Possible suggestions for films to be added next month?
 
+## Analysis 
+
+
+
+
+
+# Extract, Transform & Load: how we came to our conclusions
+
 ## Extract 
 
 We decided to extract the two CSV file sand examine both seperatly to see what we were working with.
@@ -47,14 +55,7 @@ Lastly, we wanted to change the null values in the rows 'IMDB_Rating',	'Meta_sco
 ![image](https://user-images.githubusercontent.com/100214297/170561912-2c75bd0b-caed-4a63-9a71-dbe504f0e1f4.png)
 
 ## Load 
-(process & screenshots)
 
-## Analysis
-
-
-## Implications
-
-
-## Further use
+We chose to load our DateFrames into PostgreSQL. We chose a relational database rather than a non-relational database (e.g. such as MongoDB) because we wanted to load our data into a fixed data template and visualise the table easily. 
 
  
