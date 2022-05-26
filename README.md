@@ -22,18 +22,29 @@ https://www.kaggle.com/datasets/shivamb/netflix-shows
 
 Research Questions:
 
-How many of the world’s top grossing films are currently on Netflix?
+How many of IMDB’s top 1000 films are currently on Netflix?
 
-What are the top grossing films which are on Netflix and what is there corresponding IMDB score?
+What is the corresponding IMDB score for these films, has Netflix missed any major top rated films?
 
-What genres are the highest grossing films? And what genres are Netflix currently showing? Possible suggestions for films to be added next month?
-
+What genres are most common in IMDB’s top 1000? And what genres are Netflix currently showing? Possible suggestions for films to be added next month?
 
 ## Extract 
-(process & screenshots)
+
+We decided to extract the two CSV file sand examine both seperatly to see what we were working with.
+
+![image](https://user-images.githubusercontent.com/100214297/170561035-3cd19ed7-49f6-4323-99c4-1270c8c16e99.png)
+
+![image](https://user-images.githubusercontent.com/100214297/170561207-d16677e5-958e-4a2f-80af-0835a8553fe6.png)
 
 ## Transform
-(process & screenshots)
+
+Many of the columns were not needed so we dropped many of them and then we renamed the column heads in both DataFrames to that we could concatanate the two DataFrames:
+
+![image](https://user-images.githubusercontent.com/100214297/170561586-fbdabb58-d60d-4fed-a948-dc7d197f3243.png)
+
+Lastly, we wanted to change the null values in the rows 'IMDB_Rating',	'Meta_score',	'No_of_Votes',	'Gross' - because we had many null values as there is clearly not many shows and films on Netflix that are also in the top 1000 IMDB rated list. We changed this to 'not currently in IMDB top 1000' to make it clear. 
+
+![image](https://user-images.githubusercontent.com/100214297/170561912-2c75bd0b-caed-4a63-9a71-dbe504f0e1f4.png)
 
 ## Load 
 (process & screenshots)
