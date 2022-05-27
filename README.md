@@ -30,6 +30,8 @@ What genres are most common in IMDB’s top 1000? And what genres are Netflix cu
 
 ## Analysis :mag:
 
+Our ETL on the Netflix and IMDB data allowed us to conclude some very interesting analysis...
+
 
 
 
@@ -64,7 +66,7 @@ We changed the value to 0 - we recognise that this is an anomaly but....
 
 ## Load :fax:
 
-We chose to load our DateFrames into PostgreSQL. We chose a relational database rather than a non-relational database (e.g. such as MongoDB) because we wanted to load our data into a fixed data template and visualise the table easily. 
+We chose to load our DateFrames into PostgreSQL. We chose a relational database rather than a non-relational database (e.g. such as MongoDB) because we wanted to load our data into a fixed data template, visualise and manage the table easily. We also used a relatively small dataset (around 10,000 rows) which meant that PostgreSQL could handle our data and queries. We also wished to run queries on the data and view the results in tabular form. 
 
 ![image](https://user-images.githubusercontent.com/99673859/170675609-13b018ef-4612-4c74-babc-0613982108e2.png)
 
