@@ -1,0 +1,2 @@
+#sqlpassword
+key = "Kenechi123"
