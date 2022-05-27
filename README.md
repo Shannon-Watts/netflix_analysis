@@ -54,9 +54,20 @@ Lastly, we wanted to change the null values in the rows 'IMDB_Rating',	'Meta_sco
 
 ![image](https://user-images.githubusercontent.com/100214297/170561912-2c75bd0b-caed-4a63-9a71-dbe504f0e1f4.png)
 
+We did run into one main issue when we tried to load the data to PostgreSQL - so we had to retrun to the transform stage and figure out what the issue was. We kept receiving an operational error related to 'PG'. The error promopted us to look at the row with title 'Apollo 13'. Upon further examination we found that the there was an original error in the CSV file. The 'certificate' which was 'PG' had been listed in the 'release_year' column. We rectified this by using .loc to find the exact row with the error. 
+
+![image](https://user-images.githubusercontent.com/100214297/170679731-6e1db5d9-1ee1-4c0a-bacf-93136e33fcbf.png)
+
+We changed the value to 0 - we recognise that this is an anomaly but....
+
+![image](https://user-images.githubusercontent.com/100214297/170679980-e7042fc3-0abd-407e-82e4-ea59a8df6bf7.png)
+
 ## Load 
 
 We chose to load our DateFrames into PostgreSQL. We chose a relational database rather than a non-relational database (e.g. such as MongoDB) because we wanted to load our data into a fixed data template and visualise the table easily. 
 
 ![image](https://user-images.githubusercontent.com/99673859/170675609-13b018ef-4612-4c74-babc-0613982108e2.png)
+![image](https://user-images.githubusercontent.com/100214297/170680146-6286ff2f-8ad6-4732-b86a-9bab40ee23d8.png)
+
+
 
