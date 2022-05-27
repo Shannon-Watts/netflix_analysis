@@ -6,6 +6,14 @@ This project was completed by Chisimnulia Okoye, Sofia Kauser, and Shannon Watts
 
 Our project focuses on two datasets sourced from Kaggle. We chose these datasets as we love to watch Netflix ... but we had run out of tv shows and films to watch. We wanted to see how many of IMDBs top 1000 films and tv series were on Netflix. Surely the most rated and top grossing films are the most interesting? So we also wanted to know which films/tv shows and how many were not on Netflix. 
 
+Research Questions:
+
+How many of IMDB’s top 1000 films are currently on Netflix?
+
+What is the corresponding IMDB score for these films, has Netflix missed any major top rated films?
+
+What genres are most common in IMDB’s top 1000? And what genres are Netflix currently showing? Possible suggestions for films to be added next month?
+
 The Datasets:
 
 We chose these datasets because we thought it would best illustrate what we wanted to find. 
@@ -20,18 +28,22 @@ https://www.kaggle.com/datasets/shivamb/netflix-shows
 
 ![image](https://user-images.githubusercontent.com/100214297/170559212-75190924-06a5-4063-91dc-1d7164826f97.png)
 
-Research Questions:
-
-How many of IMDB’s top 1000 films are currently on Netflix?
-
-What is the corresponding IMDB score for these films, has Netflix missed any major top rated films?
-
-What genres are most common in IMDB’s top 1000? And what genres are Netflix currently showing? Possible suggestions for films to be added next month?
 
 ## Analysis :mag:
 
 Our ETL on the Netflix and IMDB data allowed us to conclude some very interesting analysis...
 
+We found some generally intersting things such as...
+
+We were also able to answer our research questions through running queries on our newly structred database.
+
+How many of IMDB’s top 1000 films are currently on Netflix?
+
+
+What is the corresponding IMDB score for these films, has Netflix missed any major top rated films?
+
+
+What genres are most common in IMDB’s top 1000? And what genres are Netflix currently showing? Possible suggestions for films to be added next month?
 
 
 
