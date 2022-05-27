@@ -28,7 +28,7 @@ What is the corresponding IMDB score for these films, has Netflix missed any maj
 
 What genres are most common in IMDB’s top 1000? And what genres are Netflix currently showing? Possible suggestions for films to be added next month?
 
-## Analysis 
+## Analysis :mag:
 
 
 
@@ -36,7 +36,7 @@ What genres are most common in IMDB’s top 1000? And what genres are Netflix cu
 
 # Extract, Transform & Load: how we came to our conclusions
 
-## Extract 
+## Extract :open_file_folder:
 
 We decided to extract the two CSV files and examine both separately to see what we were working with.
 
@@ -44,7 +44,7 @@ We decided to extract the two CSV files and examine both separately to see what 
 
 ![image](https://user-images.githubusercontent.com/100214297/170561207-d16677e5-958e-4a2f-80af-0835a8553fe6.png)
 
-## Transform
+## Transform :broom:
 
 Many of the columns were not needed so we dropped many of them and then we renamed the column heads in both DataFrames to that we could concatanate the two DataFrames:
 
@@ -62,12 +62,11 @@ We changed the value to 0 - we recognise that this is an anomaly but....
 
 ![image](https://user-images.githubusercontent.com/100214297/170679980-e7042fc3-0abd-407e-82e4-ea59a8df6bf7.png)
 
-## Load 
+## Load :fax:
 
 We chose to load our DateFrames into PostgreSQL. We chose a relational database rather than a non-relational database (e.g. such as MongoDB) because we wanted to load our data into a fixed data template and visualise the table easily. 
 
 ![image](https://user-images.githubusercontent.com/99673859/170675609-13b018ef-4612-4c74-babc-0613982108e2.png)
-![image](https://user-images.githubusercontent.com/100214297/170680146-6286ff2f-8ad6-4732-b86a-9bab40ee23d8.png)
 
-
+Our data was now ready for analysis... A snapshot of which is below:
 
