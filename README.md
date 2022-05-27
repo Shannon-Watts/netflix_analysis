@@ -58,4 +58,5 @@ Lastly, we wanted to change the null values in the rows 'IMDB_Rating',	'Meta_sco
 
 We chose to load our DateFrames into PostgreSQL. We chose a relational database rather than a non-relational database (e.g. such as MongoDB) because we wanted to load our data into a fixed data template and visualise the table easily. 
 
- 
+![image](https://user-images.githubusercontent.com/99673859/170675609-13b018ef-4612-4c74-babc-0613982108e2.png)
+
