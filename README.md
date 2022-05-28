@@ -33,20 +33,18 @@ https://www.kaggle.com/datasets/shivamb/netflix-shows
 
 Our ETL on the Netflix and IMDB data allowed us to conclude some very interesting analysis...
 
-We found some generally intersting things such as...
-
-We were also able to answer our research questions through running queries on our newly structred database.
-
 *How many of IMDB’s top 1000 films are currently on Netflix?*
+We found that there were 8807 titles currently on Netflix that WERE NOT on the IMDB top 1000...
 
+We found that the average rating for films and tv shows on Netflix that were also on IMDB top 1000 was 7.9 and grossed at approx 68,000,000 - not too bad, but we have provided some examples below on how they can increase their viewer ratings by adding higher IMDB rated films.
 
 *What is the corresponding IMDB score for these films, has Netflix missed any major top rated films?*
 
+We looked into the top five highest rated IMDB films that were not on netflix. They had an IMDB rating of at least 9. These included *The Shawshank Redemption*, *The Godfather Part I and II*, *The Dark Knight*, and *12 Angry Men*. We would argue that Netflix is missing out by not showing these films.. no wonder people have decided to spend their weekends outide again...
 
-*What genres are most common in IMDB’s top 1000? And what genres are Netflix currently showing? Possible suggestions for films to be added next month?*
+*What release year are most common in IMDB’s top 1000? Possible suggestions for films to be added next month?*
 
-
-
+We found that 2018 was the release year with the highest count of films and TV shows on Netflix and in the IMDB top 1000. We then decided to look at the top rated films on IMDB that are not currenrly showing on Netflix. We found that *Capharnaum, Spider-Man: Into the Spider-Verse, Avengers:Infinity War, Tumbbad, and Andhadhun* were missing from Netflix... 
 
 # Extract, Transform & Load: how we came to our conclusions
 
@@ -62,7 +60,7 @@ We decided to extract the two CSV files and examine both separately to see what 
 
 Many of the columns were not needed so we dropped many of them and then we renamed the column heads in both DataFrames to that we could concatanate the two DataFrames:
 
-![image](https://user-images.githubusercontent.com/100214297/170561586-fbdabb58-d60d-4fed-a948-dc7d197f3243.png)
+![image](https://user-images.githubusercontent.com/100214297/170837725-10536a4b-5093-465c-a130-32df1d8c02de.png)
 
 Lastly, we wanted to change the null values in the rows 'IMDB_Rating',	'Meta_score',	'No_of_Votes',	'Gross' - because we had many null values as there is clearly not many shows and films on Netflix that are also in the top 1000 IMDB rated list. We changed this to 'not currently in IMDB top 1000' to make it clear. 
 
