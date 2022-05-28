@@ -1,2 +1,0 @@
-#sqlpassword
-key = "Kenechi123"
