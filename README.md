@@ -68,13 +68,25 @@ Lastly, we wanted to change the null values in the rows 'IMDB_Rating',	'Meta_sco
 
 ![image](https://user-images.githubusercontent.com/100214297/170561912-2c75bd0b-caed-4a63-9a71-dbe504f0e1f4.png)
 
-We did run into one main issue when we tried to load the data to PostgreSQL - so we had to retrun to the transform stage and figure out what the issue was. We kept receiving an operational error related to 'PG'. The error promopted us to look at the row with title 'Apollo 13'. Upon further examination we found that the there was an original error in the CSV file. The 'certificate' which was 'PG' had been listed in the 'release_year' column. We rectified this by using .loc to find the exact row with the error. 
+## Some errors enountered whilst Transforming Data
+
+We did run into one main issue when we tried to load the data to PostgreSQL - so we had to retrun to the transform stage and figure out what the issue was. 
+We kept receiving an operational error related to 'PG'. The error promopted us to look at the row with title 'Apollo 13'. Upon further examination we found that the there was an original error in the CSV file. The 'certificate' which was 'PG' had been listed in the 'release_year' column. 
+We rectified this by using .loc to find the exact row with the error. 
 
 ![image](https://user-images.githubusercontent.com/100214297/170679731-6e1db5d9-1ee1-4c0a-bacf-93136e33fcbf.png)
 
-We changed the value to 0 - we recognise that this is an anomaly
+#### We changed the value to 0 - we recognise that this is an anomaly
 
 ![image](https://user-images.githubusercontent.com/100214297/170679980-e7042fc3-0abd-407e-82e4-ea59a8df6bf7.png)
+
+Another major error we encountered whilst loading, was commas in the 'Gross' column to  eliminate this we :
+![image](https://user-images.githubusercontent.com/100169801/170824778-f0412b65-6111-4cb5-b9c6-96e69f26c000.png)
+
+Lastly our third major error occured due to the change of null values in the rows 'IMDB_Rating',	'Meta_score',	'No_of_Votes',	'Gross'. We needed to perform analysis using these columns, in order to do this we had to revert back to the NaN values and this allowed us to perform the analysis we required. 
+
+![image](https://user-images.githubusercontent.com/100169801/170825194-088190a5-f529-466f-aec8-9c68184c8f3b.png)
+
 
 ## Load :fax:
 
