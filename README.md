@@ -4,7 +4,7 @@ This project was completed by Chisimnulia Okoye, Sofia Kauser, and Shannon Watts
 
 ## Research proposal
 
-Our project focuses on two datasets sourced from Kaggle. We chose these datasets as we love to watch Netflix ... but we had run out of tv shows and films to watch. We wanted to see how many of IMDBs top 1000 films and tv series were on Netflix. Surely the most rated and top grossing films are the most interesting? So we also wanted to know which films/tv shows and how many were not on Netflix. 
+Our project focuses on two datasets sourced from Kaggle. We chose these datasets as we love to watch Netflix ... but we had run out of tv shows and films to watch. We wanted to see how many of IMDBs top 1000 films and tv series were on Netflix. Surely the most rated and top grossing films are the most interesting? So we sought to know these films/tv shows and how many of them were not on Netflix. 
 
 **Research Questions:**
 
