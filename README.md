@@ -72,7 +72,7 @@ We did run into one main issue when we tried to load the data to PostgreSQL - so
 
 ![image](https://user-images.githubusercontent.com/100214297/170679731-6e1db5d9-1ee1-4c0a-bacf-93136e33fcbf.png)
 
-We changed the value to 0 - we recognise that this is an anomaly but....
+We changed the value to 0 - we recognise that this is an anomaly
 
 ![image](https://user-images.githubusercontent.com/100214297/170679980-e7042fc3-0abd-407e-82e4-ea59a8df6bf7.png)
 
