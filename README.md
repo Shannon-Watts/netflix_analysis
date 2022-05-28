@@ -44,7 +44,7 @@ We looked into the top five highest rated IMDB films that were not on netflix. T
 
 *What release year are most common in IMDB’s top 1000? Possible suggestions for films to be added next month?*
 
-We found that 2018 was the release year with the highest count of films and TV shows on Netflix and in the IMDB top 1000. We then decided to look at the top rated films on IMDB that are not currenrly showing on Netflix. We found that *Capharnaum, Spider-Man: Into the Spider-Verse, Avengers:Infinity War, Tumbbad, and Andhadhun* were missing from Netflix... 
+We found that 2018 was the release year with the highest count of films and TV shows on Netflix and in the IMDB top 1000. We then decided to look at the top rated films on IMDB that are not currenrly showing on Netflix. We found that *Capharnaum, Spider-Man: Into the Spider-Verse, Avengers:Infinity War, Tumbbad, and Andhadhun* were missing from Netflix... We definitely agree that these should be added next month! 
 
 # Extract, Transform & Load: how we came to our conclusions
 
