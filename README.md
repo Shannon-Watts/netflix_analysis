@@ -80,7 +80,24 @@ We changed the value to 0 - we recognise that this is an anomaly but....
 
 We chose to load our DateFrames into PostgreSQL. We chose a relational database rather than a non-relational database (e.g. such as MongoDB) because we wanted to load our data into a fixed data template, visualise and manage the table easily. We also used a relatively small dataset (around 10,000 rows) which meant that PostgreSQL could handle our data and queries. We also wished to run queries on the data and view the results in tabular form. 
 
+![image](https://user-images.githubusercontent.com/100214297/170824015-47c37fe6-8cc3-43e8-bbaf-19760bc7a1d8.png)
+
+
 ![image](https://user-images.githubusercontent.com/99673859/170675609-13b018ef-4612-4c74-babc-0613982108e2.png)
 
 Our data was now ready for analysis... A snapshot of which is below:
+
+![image](https://user-images.githubusercontent.com/100214297/170824023-c6a86e00-8877-4403-b158-ac9d8df36ac3.png)
+
+![image](https://user-images.githubusercontent.com/100214297/170824026-21c3369d-8011-4b3f-ab0a-20cd6f878dfc.png)
+
+![image](https://user-images.githubusercontent.com/100214297/170824030-ca225364-5da3-4451-a884-63032ef50b7a.png)
+
+![image](https://user-images.githubusercontent.com/100214297/170824034-f59cd1cf-ba8b-46e4-961a-3f30b8d32e7a.png)
+
+![image](https://user-images.githubusercontent.com/100214297/170824041-a1af932f-8eeb-4ea8-8194-5c6a7811607f.png)
+
+![image](https://user-images.githubusercontent.com/100214297/170824047-3ccd3fe8-b936-42a7-ad48-440404705fe7.png)
+
+
 
