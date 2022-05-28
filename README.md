@@ -12,7 +12,7 @@ Our project focuses on two datasets sourced from Kaggle. We chose these datasets
 
 *What is the corresponding IMDB score for these films, has Netflix missed any major top rated films?*
 
-*What genres are most common in IMDB’s top 1000? And what genres are Netflix currently showing? Possible suggestions for films to be added next month?*
+*What release year are most common in IMDB’s top 1000? Possible suggestions for films to be added next month?*
 
 **The Datasets:**
 
